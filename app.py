@@ -14,7 +14,9 @@ def charger_donnees(chemin):
         df_list.append(df)
     return pd.concat(df_list, ignore_index=True)
 
-# Traitement des données pour les statistiques
+
+# commentaire
+# # Traitement des données pour les statistiques
 def statistiques(df):
     boules = df[['boule_1', 'boule_2', 'boule_3', 'boule_4', 'boule_5']]
     etoiles = df[['etoile_1', 'etoile_2']]
